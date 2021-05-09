@@ -3,6 +3,15 @@ package br.com.aulas.java;
 import java.util.Arrays;
 import java.util.Random;
 
+/*
+Resultado:
+Metodo 1 (comando for)-> tempo de processamento -> 13
+Metodo 2 (clone) -> tempo de processamento -> 37
+Metodo 3 (System.arraycopy) -> tempo de processamento -> 11
+Metodo 4 (Arrays.copyOf) -> tempo de processamento -> 35
+
+*/
+
 public class TesteDesempenho {
 	public static void main(String[] args) {
 		// (0) declara de variáveis e preenche o array "a"
